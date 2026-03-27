@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    color: #38bdf8;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 60px 50px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+}
+
+.hero-text span {
+    color: #38bdf8;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MyPortfolio</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Hi, I'm <span>PAVITHRA P</span></h2>
+        <p>CSE Student </p>
+        <a href="#projects" class="btn">View Projects</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a Computer Science Engineering student passionate about AI, programming, and building innovative solutions.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+        <div class="card">Java</div>
+        <div class="card">Python</div>
+        <div class="card">Problem Solving</div>
+        <div class="card">Teamwork</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>AI Assistant</h3>
+            <p>Basic AI chatbot project.</p>
+        </div>
+       
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: pavipandi696@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Pavithra | Portfolio</p>
+</footer>
+
+</body>
+</html>
